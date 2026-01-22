@@ -5,11 +5,15 @@
 
   color: $title-color;
 
-  display: flex;
-  align-items: center;
 
   &--secondary {
     color: $font-color;
     font-size: 32px;
+  }
+
+  &--third {
+    color: $font-color;
+    font-size: 18px;
+    padding-top: 24px;
   }
 }
