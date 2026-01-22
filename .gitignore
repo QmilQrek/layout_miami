@@ -17,3 +17,4 @@ dist
 package-lock.json
 package.json
 .github/workflows/test.yml-template
+checklist.md
