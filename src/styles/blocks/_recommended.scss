@@ -5,9 +5,12 @@
   line-height: 140%;
   &__paragraph{
 
-
     &--bold{
       font-weight: 700;
     }
+
+  }
+  &__photo{
+    width: 100%;
   }
 }
