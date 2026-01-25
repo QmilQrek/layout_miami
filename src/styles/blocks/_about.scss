@@ -1,0 +1,17 @@
+.about {
+  background-color: $color-back-about;
+  box-sizing: border-box;
+
+  &__backimage {
+    background-color: gray;
+    min-height: 200px;
+    background-image: url(../images/photos/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  // &__inside {
+
+  // }
+}
