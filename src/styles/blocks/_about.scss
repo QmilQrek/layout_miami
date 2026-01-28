@@ -23,12 +23,13 @@
   }
 
   &__inside {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(2, 130px);
-    gap: 20px;
+    @include grid;
 
-      &--title {
+    @include for-tablets {
+      padding: 120px 0;
+    }
+
+    &--title {
       font-family: Manrope, sans-serif;
       font-weight: 700;
       font-size: 32px;
@@ -63,18 +64,6 @@
       padding: 24px 0 48px;
       margin-left: 20px;
       margin-right: 20px;
-    }
-
-
-    @include for-tablets {
-      grid-template-columns: repeat(6, 80px);
-      gap: 24px;
-      padding: 120px 0;
-    }
-
-    @include for-desktop {
-      grid-template-columns: repeat(12, 63px);
-      gap: 24px;
     }
 
     &__title {

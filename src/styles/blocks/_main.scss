@@ -6,17 +6,8 @@
   line-height: 140%;
   font-style: normal;
 
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(2, 130px);
-  gap: 20px;
+@include grid;
 
-
-  @include for-tablets {
-    grid-template-columns: repeat(6, 80px);
-    gap: 24px;
-
-  }
   &__section {
     grid-column: 1 / 3;
   }
