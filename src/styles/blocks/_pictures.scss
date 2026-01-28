@@ -1,12 +1,20 @@
 .pictures {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  @include grid;
 
   &__item{
     width: 100%;
     position: relative;
     padding-top: 100%;
+
+    @include for-tablets {
+      grid-column: span 3;
+      padding-top: 184px;
+    }
+
+    @include for-desktop {
+      grid-column: span 6;
+      padding-top: 324px;
+    }
   }
 
   &__image {
