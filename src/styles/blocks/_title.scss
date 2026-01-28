@@ -10,6 +10,17 @@
   &--secondary {
     color: $font-color;
     font-size: 32px;
+
+
+    @include for-tablets {
+      font-size: 40px;
+      line-height: 40px;
+    }
+
+    @include for-desktop {
+      font-size: 48px;
+      line-height: 48px;
+    }
   }
 
   &--third {
