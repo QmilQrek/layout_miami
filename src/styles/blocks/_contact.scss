@@ -1,6 +1,12 @@
 .contact{
   @include grid;
 
+  margin-bottom: 64px;
+
+  @include for-tablets {
+    margin-bottom: 120px;
+  }
+
   &__form{
     grid-column: span 2;
 
