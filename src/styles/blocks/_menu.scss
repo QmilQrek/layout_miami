@@ -8,15 +8,40 @@
   background-color: $background-accent;
   padding: 0 20px 20px;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+
+
+  @include grid;
+
+  align-content: start;
+
 
   &:target {
     transform: translateX(0);
   }
 
+  &__navigation {
+    grid-column: span 2;
+
+    @include for-tablets {
+      grid-column: span 6;
+    }
+
+    @include for-desktop {
+      grid-column: span 12;
+    }
+  }
+
   &__links {
     margin-bottom: 16px;
+    grid-column: span 2;
+
+    @include for-tablets {
+      grid-column: span 6;
+    }
+
+    @include for-desktop {
+      grid-column: span 12;
+    }
   }
 
   &__paragraph {
@@ -26,6 +51,15 @@
     letter-spacing: 2px;
     color: $font-color;
     margin-bottom: 16px;
+    grid-column: span 2;
+
+    @include for-tablets {
+      grid-column: span 6;
+    }
+
+    @include for-desktop {
+      grid-column: span 12;
+    }
   }
 
   &__call-link {
