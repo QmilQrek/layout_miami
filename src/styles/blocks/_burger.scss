@@ -1,4 +1,6 @@
 .burger{
+  display: flex;
+  align-items: center;
   &::before{
     content: '';
     background-image: url(/src/images/menu.svg);
