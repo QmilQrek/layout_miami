@@ -6,12 +6,12 @@
     background-image: url(/src/images/menu.svg);
     background-size: cover;
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
 
     @include for-tablets {
-      width: 32px;
-      height: 32px;
+      width: 24px;
+      height: 24px;
     }
   }
 
@@ -20,12 +20,12 @@
     content: '';
     background-image: url(/src/images/menu_hover.svg);
     background-size: cover;
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
 
     @include for-tablets {
-      width: 32px;
-      height: 32px;
+      width: 24px;
+      height: 24px;
     }
   }
 
