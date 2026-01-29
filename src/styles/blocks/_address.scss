@@ -12,12 +12,16 @@
   }
 
   &__content{
+    margin-bottom: 24px;
+  }
+
+  &__link {
     font-family: Manrope, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0.15px;
-    margin-bottom: 24px;
-
+    text-decoration: none;
+    color: $font-color;
   }
 }
