@@ -4,8 +4,8 @@
     background-image: url(/src/images/menu.svg);
     background-size: cover;
     display: inline-block;
-    width: 18px;
-    height: 18px;
+    width: 24px;
+    height: 24px;
   }
 
   &::after {
@@ -13,8 +13,8 @@
     content: '';
     background-image: url(/src/images/menu_hover.svg);
     background-size: cover;
-    width: 18px;
-    height: 18px;
+    width: 24px;
+    height: 24px;
   }
 
   &:hover {
