@@ -13,6 +13,16 @@
 
   }
 
+  &__icon{
+    width: 18px;
+    height: 18px;
+
+    @include for-tablets {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
   &:not(:hover) &__label {
     @include visuall-hidden;
   }

@@ -6,6 +6,15 @@
 
   color: $title-color;
 
+  @include for-tablets{
+    font-size: 48px;
+    line-height: 100%;
+  }
+
+  @include for-desktop{
+    font-size: 56px;
+  }
+
 
   &--secondary {
     color: $font-color;

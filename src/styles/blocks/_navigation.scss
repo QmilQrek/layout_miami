@@ -4,15 +4,14 @@
   padding-top: 25px;
   align-items: center;
 
-  &__logo {
-    height: 16px;
-
-  }
-
   &__icons{
     display: inline-flex;
-    gap: 26px;
+    gap: 27px;
     align-items: center;
+
+    @include for-tablets{
+      gap: 36px;
+    }
   }
 
 }
