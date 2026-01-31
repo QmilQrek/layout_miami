@@ -6,10 +6,17 @@ background-repeat: no-repeat;
 background-size: cover;
 
 min-height: 100vh;
-padding: 0 20px 80px;
 box-sizing: border-box;
 
 grid-template-rows: 1fr 1fr;
+
+@include padding;
+
+padding-bottom: 40px;
+
+@include for-tablets{
+  padding-bottom: 64px
+}
 
 @include grid;
 

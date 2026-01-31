@@ -24,10 +24,7 @@
 
   &__inside {
     @include grid;
-
-    @include for-tablets {
-      padding: 120px 0;
-    }
+    @include padding;
 
     &--title {
       font-family: Manrope, sans-serif;
@@ -67,12 +64,11 @@
 
       @include for-tablets {
         grid-column: 1 / 4;
-        padding: 0;
+        padding: 120px 0;
       }
 
       @include for-desktop {
         grid-column: 1 / 7;
-        padding: 0;
       }
 
     }
@@ -82,12 +78,12 @@
 
       @include for-tablets {
         grid-column: 4 / 7;
-        padding: 0;
+        padding: 120px 0;
       }
 
       @include for-desktop {
         grid-column: 8 / 13;
-        padding: 0;
+
       }
     }
 
